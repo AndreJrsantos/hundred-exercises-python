@@ -1,0 +1,6 @@
+print("-----------")
+print("R$ para US$")
+print("-----------")
+real = float(input("R$: "))
+conver = (real / 4.79)
+print(f"{real} R$ Equivale a {conver:.2f} US$!")

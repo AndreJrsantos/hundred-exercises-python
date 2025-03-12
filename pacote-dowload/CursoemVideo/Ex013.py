@@ -1,0 +1,5 @@
+print("AUMENTO DE SALÁRIO!")
+print()
+sal = float(input("Salário Atual R$: "))
+Nsal = sal + (sal * 0.15)
+print(f"Seu novo Salário será de R$: {Nsal:.2f}")
